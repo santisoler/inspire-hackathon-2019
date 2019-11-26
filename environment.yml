@@ -1,0 +1,14 @@
+name: inspire-hackathon
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.7
+    - pip
+    # Required
+    - numpy
+    - xarray
+    - pandas
+    - cdsapi
+    - jupyter-notebook
+    - matplotlib
